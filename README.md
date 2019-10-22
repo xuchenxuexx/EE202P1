@@ -4,5 +4,5 @@
 __Team Member:__ Xuchen Xue, Jingjie Wu
 
 __Content__
-  * Project Proposal (GitHub Page: https://github.com/xuchenxuexx/EE202P1/blob/master/Proposal.md)
-  * Puechase Requirement (GitHub Page: https://github.com/xuchenxuexx/EE202P1/blob/master/Purchase%20Requirement.md)
+  * Project Proposal (GitHub Page: https://github.com/xuchenxuexx/EE202P1/blob/master/Docs/Proposal.md)
+  * Puechase Requirement (GitHub Page: https://github.com/xuchenxuexx/EE202P1/blob/master/Docs/PurchaseRequirement.md)
