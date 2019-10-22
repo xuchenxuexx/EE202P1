@@ -1,4 +1,4 @@
-# Repository for EEM 202A Winter 2019
+# Repository for EEM202A Fall 2019 UCLA
 # Project Topic: A Pedestrian Alert System using “earables”
 
 __Team Member:__ Xuchen Xue, Jingjie Wu
