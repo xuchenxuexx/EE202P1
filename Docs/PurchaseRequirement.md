@@ -8,3 +8,5 @@
   * __(Haven't received)__ Hosa YPP-117 Y Spliter (Amazon: https://www.amazon.com/Hosa-YPP-117-Stereo-Breakout-Cable/dp/B000068O54/ref=sr_1_1?keywords=Hosa+Stereo+Breakout+1%2F4+in+Trs+to+Dual+1%2F4+in+Tsf&qid=1572294548&sr=8-1)
 
   * __(Haven't received)__ 3.5mm Extension Adapter Cable (Amazon: https://www.amazon.com/AmazonBasics-3-5mm-Female-Stereo-Audio/dp/B01CNAUYBY/ref=sr_1_3?keywords=3.5mm+extension&qid=1571804551&sr=8-3)
+  
+  * __(Haven't received)__ Rode Microphones SC6 (Amazon: https://www.amazon.com/gp/product/B00IEM2NM4/ref=as_li_qf_sp_asin_il_tl?tag=timligmusonth-20&ie=UTF8&linkId=YJNOPI7BTGFJWW7P)
