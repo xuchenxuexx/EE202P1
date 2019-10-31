@@ -26,6 +26,34 @@ __Literature Review__
   In order to improve the pedestrians’ safety, several works on detecting and localizing the approaching vehicles based on sound information have been presented. Kodera proposed a direction estimation method based on a microphone array that uses the cross correlation method and cubic spline interpolation [3]. However, it can work when there is only one approaching vehicle. Lee presented an audio-based early warning system of vehicle approaching event where multiple feature techniques were applied to short-time frames of audio samples and multiple machine learning classifiers were applied to classify the audio frames to effectively detect vehicle approaching sound [4]. Xia presented a smartphone platform that utilizes an embedded wearable headset system with an array of MEMS microphones to help detect, localize and warn pedestrians of approaching cars [5]. First, the NBIP feature is extracted from audio samples and a Random Forest classifier is applied to detect cars. Once a car is detected, the localization module is activated. The direction as the angle of arrival is computed through the delay of arrival between microphones while the distance is obtained by regression model which takes the signal energy features. Nevertheless, there is no experimental results or accuracy.
   Our goal is to utilize several microphones as fewer as possible to detect the approaching vehicle and compute its direction, distance as well as velocity. Then the system will alert the user when the facial direction obtained by IMU on esense is not covering the direction of vehicle.
 
+__Technique Approach__
+
+Detection:
+
+Take short-time frames as samples in real-time. For each frame, extract the feature from both frequency domain and time domain such as Non-Uniform Binned Integral Periodogram, Root Mean Square, Zero crossings and etc. The final types of features that we will use depends on the accuracy of classification in experiments. Train a Machine Learning classifier to detect the approaching vehicle. We will try SVM, Random Forest and decide which to use upon testing accuracy.
+
+Direction:
+
+If we are using 3 or more microphones, we can directly compute the direction as angle of arrival of sound by delays between arrivals of each microphone. We will try to work on direction computation with 2 microphones possibly based on some other information.
+
+Distance:
+
+For each frame, extract the signal energy as feature. Train a regression model mapping the signal energy to distance.
+
+Data sets:
+
+The data sets will be obtained by experiments. The main situation will be car driving at different speeds and at different distance.
+
+Facial direction:
+
+Obtain data from IMU in eSense to determin the facial direction.
+
+
+Verification:
+
+Each module and function will be verified separately first. Finally, as each module can work, the whole system will be tested in some situations where car is approaching at random direction and velocity.
+
+
 __Success Metrics__
 
   * When a car is approaching pedestrian,  Pedestrian Alert System is able to recognize car noise from all other noise.
