@@ -31,7 +31,7 @@ Fig.1 Nokia eSense Earables
 
 After the failure of eSense earables, we choose to connect two wired microphones to one Android phone via Hosa YMM-261 3.5 mm TRS to Dual 3.5 mm TSF Stereo Breakout Cable shown in fig.2. We use this combo to collect audio samples in Weyburn Terrace Cypress Court Parking Garage and use a car model of Audi A4. After we collect certain numbers of sample and test these samples on MATLAB, and confirm that this Y cable can record audio input into stereo form. While, after we display the signal of two channels, we found that the waveform of two channels are almost the same. We run a for loop to compare the value of two channels and they are exactly the same. After a few experiments, we conclude a couple of things. One is that a Y cable can split audio output in a perfect way but it can’t split audio input. It will add the signal collected from two microphones together and average it into each channel and that’s why we have the same signal in both channels. Another thing is that a single mobile doesn’t have the ability to split audio input information into two channels and you need a digital recorder which has multiple input port to achieve this. After understanding these properties, we modify our goal and switch to the next phase.
 
-<img src="https://github.com/xuchenxuexx/EEM202A_Final_Project/blob/master/Docs/2.png" width = "500">
+<img src="https://github.com/xuchenxuexx/EEM202A_Final_Project/blob/master/Docs/2.png" width = "500"/>
 
 Fig.2 Y cable and two wired microphones
 
