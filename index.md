@@ -164,6 +164,8 @@ Combined with the synchronization time we computed previously, the final result 
 
 Right comes first, which means the car is approaching from the right-hand side, consistent with our sample.
 
+As we can see, there are some oscillations after the first presence of the car noise, which is mainly due to the environment noise in the training sample.
+
 _Total result and accuracy_
 
 By applying the whole procedure above, then we test 10 more examples, the result of which can be shown in the next table. A positive value means that left comes first. The estimated direction is determined in a way that if the sign of (Detection delay - Synchronization delay) is positive, then the estimated direction is left, and vice versa. 
@@ -183,6 +185,7 @@ Right 5|-0.7012|-0.7129|Right
 
 Table.1 Total results
 
+According to the above results, the model accuracy is reasonable. However, the relative delay is too large to get an accurate angle of the approaching car. We still need to improve the accuracy of the detection part or even propose a more efficient method to perform this task.
 
 
 ## Future Works ##
