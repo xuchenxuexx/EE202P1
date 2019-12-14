@@ -24,14 +24,14 @@ _A. Phase One: Nokia eSense earables/Y cable & wired microphones_
 
 First step of alert system is to create a system which could collect audio information and process it in real-time. It has to split input audio information into two different channels with two microphone so that we could compare the delay between two microphones to determine the direction of the cars. Our original idea is using Nokia eSense earables shown in fig.1 to collect audio information and pass it to an Android phone to process it. We soon realize that Nokia eSense can’t complete this mission because the mechanism eSense earables use to talk with mobile phone. When eSense earables connect to mobile phone, one earable become “main” earable to talk to mobile phone and the other earable talk to the “main” earable to achieve synchronization. During this process, only one microphone will be activated, Thus, we can’t collect stereo audio information with this limitation. Due to bluetooth protocol, we can’t connect two different eSense earables pairs to the same mobile phone. For all the reasons above, we abandon this idea and move to the next step.
 
-![alt text](https://github.com/xuchenxuexx/EEM202A_Final_Project/blob/master/Docs/1.png)
+![img1](https://github.com/xuchenxuexx/EEM202A_Final_Project/blob/master/Docs/1.png)
 
 Fig.1 Nokia eSense Earables
 
 
 After the failure of eSense earables, we choose to connect two wired microphones to one Android phone via Hosa YMM-261 3.5 mm TRS to Dual 3.5 mm TSF Stereo Breakout Cable shown in fig.2. We use this combo to collect audio samples in Weyburn Terrace Cypress Court Parking Garage and use a car model of Audi A4. After we collect certain numbers of sample and test these samples on MATLAB, and confirm that this Y cable can record audio input into stereo form. While, after we display the signal of two channels, we found that the waveform of two channels are almost the same. We run a for loop to compare the value of two channels and they are exactly the same. After a few experiments, we conclude a couple of things. One is that a Y cable can split audio output in a perfect way but it can’t split audio input. It will add the signal collected from two microphones together and average it into each channel and that’s why we have the same signal in both channels. Another thing is that a single mobile doesn’t have the ability to split audio input information into two channels and you need a digital recorder which has multiple input port to achieve this. After understanding these properties, we modify our goal and switch to the next phase.
 
-![img2](https://raw.githubusercontent.com/xuchenxuexx/EEM202A_Final_Project/blob/master/Docs/2.png)
+<img src="https://github.com/xuchenxuexx/EEM202A_Final_Project/blob/master/Docs/2.png" width = "500">
 
 Fig.2 Y cable and two wired microphones
 
