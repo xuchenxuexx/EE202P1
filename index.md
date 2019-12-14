@@ -19,7 +19,7 @@ _A. Phase One: Nokia eSense earables/Y cable & wired microphones_
 
 First step of alert system is to create a system which could collect audio information and process it in real-time. It has to split input audio information into two different channels with two microphone so that we could compare the delay between two microphones to determine the direction of the cars. Our original idea is using Nokia eSense earables shown in fig.1 to collect audio information and pass it to an Android phone to process it. We soon realize that Nokia eSense can’t complete this mission because the mechanism eSense earables use to talk with mobile phone. When eSense earables connect to mobile phone, one earable become “main” earable to talk to mobile phone and the other earable talk to the “main” earable to achieve synchronization. During this process, only one microphone will be activated, Thus, we can’t collect stereo audio information with this limitation. Due to bluetooth protocol, we can’t connect two different eSense earables pairs to the same mobile phone. For all the reasons above, we abandon this idea and move to the next step.
 
-<img src="asserts/Docs/1.png" alt = ""  width = "500">
+<img src="assets/Docs/1.png" alt = ""  width = "500">
 
 Fig.1 Nokia eSense Earables
 
