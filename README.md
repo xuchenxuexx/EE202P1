@@ -3,7 +3,7 @@
 
 __Team Member:__ Xuchen Xue
 
-## Abstract ##
+## Abstract 
 
     With the development of technology and mobile phone functionality, more and more pedestrians and joggers tend to play with their phones or listen to music while they are walking or jogging. On the other hand, if we could make use of sensor and data processing ability of mobile phones, we could also design a system to alert the user for unseen dangers. In this article, we present a pedestrian alert system with eSense earables and wired microphones to detect the direction of an approaching car and warn the user of the danger. Also, we propose some possibilities in this system that could be discovered in the future. 
     
