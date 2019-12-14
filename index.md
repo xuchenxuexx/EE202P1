@@ -163,6 +163,20 @@ Combined with the synchronization time we computed previously, the final result 
 
 Right comes first, which means the car is approaching from the right-hand side, consistent with our sample.
 
+_Total result and accuracy_
+
+By applying the whole procedure above, then we test 10 more examples, the result of which can be shown in the next table. A positive value means that left comes first. The estimated direction is determined in a way that if the sign of (Detection delay - Synchronization delay) is positive, then the estimated direction is left, and vice versa. 
+
+Sample direction|Synchronization delay (s)|Detection delay (s)|Estimated Direction
+---|---|---|---
+Left 1|1.2426|1.4567|Left
+Left 2|-0.8109|-0.7082|Left
+Left 3|-0.7728|-0.6281|Left
+Left 4|-1.9156|-1.2971|Left
+
+Table.1 Total results
+
+
 
 ## Future Works ##
 
