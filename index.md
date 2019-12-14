@@ -173,6 +173,10 @@ Left 1|1.2426|1.4567|Left
 Left 2|-0.8109|-0.7082|Left
 Left 3|-0.7728|-0.6281|Left
 Left 4|-1.9156|-1.2971|Left
+Left 5|-0.8181|-0.5569|Left
+Right 1|-1.8304|-1.8667|Right
+Right 2|-1.1756|-1.2209|Right
+Right 3|-1.7922|-1.8902|Right
 
 Table.1 Total results
 
