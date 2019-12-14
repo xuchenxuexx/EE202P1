@@ -15,4 +15,5 @@ __Content__
   * Code for feature extraction can be found under /MATLAB/ folder
   * Code for Model Training and direction detection can be found under /Python/ folder
   * Presentation can be found under /Presentations/ folder
+  * Audio Samples used for training and testing are under /Audio Samples/ folder
   * Final Report can be found at https://github.com/xuchenxuexx/EEM202A_Final_Project/blob/master/index.md
