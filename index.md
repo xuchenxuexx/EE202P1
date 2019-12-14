@@ -196,5 +196,6 @@ In this project, we present a system using 2 microphones to protect pedestrians 
 ## Reference ##
 
 [1] de Godoy, D., Islam, B., Xia, S., Islam, M. T., Chandrasekaran, R., Chen, Y. C., ... & Jiang, X. (2018, April). Paws: A wearable acoustic system for pedestrian safety. In 2018 IEEE/ACM Third International Conference on Internet-of-Things Design and Implementation (IoTDI) (pp. 237-248). IEEE.
+
 [2] S. Xia et al., "A Smartphone-Based System for Improving Pedestrian Safety," 2018 IEEE Vehicular Networking Conference (VNC), Taipei, Taiwan, 2018, pp. 1-2.
 
