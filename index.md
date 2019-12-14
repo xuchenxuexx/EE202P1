@@ -189,6 +189,10 @@ Table.1 Total results
 
 There are plenty of future work needed to be done to complete the whole alert system. First, when we collect sample data to extract features and train model, we need to choose different kinds of car models and under different kinds of situation. In this project, we choose car model of Audi A4 under garage environment which limit the scope of application. Second thing is that to achieve analyze the audio data in real time, we need to develop a specific PCB board which can take multiple audio input and send them to mobile phone with good synchronization property and this could be challenging. After completing this, we need to upload all the MATLAB code and Python code to Android Studio and run them under proper packages. Also, the parameter of feature extraction and model training should be optimized to improve the robustness of this system with reducing the amount of computation.  Finally, we need to design a robust common filter to filter out the noise of IMU unit to achieve function of determining user’s head position. 
 
+## Conclusion ##
+
+In this project, we present a system using 2 microphones to protect pedestrians by identifying the presence of approaching cars and computing the approaching direction. By using the machine learning algorithm, the detection of car noise is almost 100% accurate while the direction detection may have some error which needs to be improved by introducing more feature or improving the sample quality. As the technology evolves and new distractions and dangers surround modern sites, innovative safety systems must be invented to balance the common-citizen welfare.
+
 ## Reference ##
 
 [1] de Godoy, D., Islam, B., Xia, S., Islam, M. T., Chandrasekaran, R., Chen, Y. C., ... & Jiang, X. (2018, April). Paws: A wearable acoustic system for pedestrian safety. In 2018 IEEE/ACM Third International Conference on Internet-of-Things Design and Implementation (IoTDI) (pp. 237-248). IEEE.
